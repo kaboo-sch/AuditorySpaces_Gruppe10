@@ -7,7 +7,7 @@ public class GazeFiller : MonoBehaviour
 {
     public Image imgGaze;
     public float totalTime = 2;
-    bool gvrStatus;
+    public bool gvrStatus;
     float gvrTimer;
 
     void Update()
@@ -16,6 +16,7 @@ public class GazeFiller : MonoBehaviour
         {
             gvrTimer += Time.deltaTime;
             imgGaze.fillAmount = gvrTimer / totalTime;
+            //Debug.Log(imgGaze.fillAmount);
         }
         
     }
