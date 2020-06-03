@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.1
+  m_FogDensity: 0
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -566,6 +566,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
+--- !u!1 &917219830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5931092782637171314, guid: 55ea9445b7fc543b9ac278697ee9cda3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5931092782512992003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!45 &917219832
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917219830}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 8ee259da27869420cb53ac8a5edb2dba, type: 2}
 --- !u!1 &1265985391
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890137461692742053, guid: 3d5f4df27de1e4ad78d97fed7469064b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3d5f4df27de1e4ad78d97fed7469064b,
         type: 3}
@@ -798,6 +818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
+        type: 3}
+      propertyPath: imgGaze
+      value: 
+      objectReference: {fileID: 1265985393}
     - target: {fileID: 5931092783740545694, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -853,10 +878,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
-        type: 3}
-      propertyPath: imgGaze
-      value: 
-      objectReference: {fileID: 1265985393}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55ea9445b7fc543b9ac278697ee9cda3, type: 3}
