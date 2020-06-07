@@ -26,7 +26,6 @@ public class SceneChanger : MonoBehaviour
                 SceneManager.LoadScene(SceneToLoad);
             }
         }
-
     }
 
     /*

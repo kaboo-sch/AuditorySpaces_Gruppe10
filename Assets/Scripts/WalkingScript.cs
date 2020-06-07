@@ -8,7 +8,6 @@ public class WalkingScript : MonoBehaviour
     bool stepsFired = false;
     public GameObject PlayerObj;
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButton("Fire1"))
@@ -36,6 +35,6 @@ public class WalkingScript : MonoBehaviour
     {
         PlayerObj.GetComponent<AudioSource>().Stop();
         stepsFired = false;
-        Debug.Log("Stop Funktion");
+        //Debug.Log("Stop Funktion");
     }
 }
