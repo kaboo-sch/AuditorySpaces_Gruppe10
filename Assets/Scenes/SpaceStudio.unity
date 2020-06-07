@@ -294,6 +294,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myPlayer: {fileID: 1908669156}
   SceneToLoad: ForestScene
+--- !u!1 &671101090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4498004193120682366, guid: 3d5f4df27de1e4ad78d97fed7469064b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1646853863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &671101094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671101090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde7fb3b2adaf4ca48d8e4746250e162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapeRotateSpeed: 60
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +634,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2e67f78185b58438aa5b07e3a44ae36d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.65
+      value: 15.219999
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2e67f78185b58438aa5b07e3a44ae36d,
         type: 3}
@@ -772,7 +791,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2e67f78185b58438aa5b07e3a44ae36d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.97
+      value: 10.54
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2e67f78185b58438aa5b07e3a44ae36d,
         type: 3}
@@ -861,6 +880,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 3928713070479137973, guid: 3d5f4df27de1e4ad78d97fed7469064b, type: 3}
+--- !u!1 &1369988205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8803592539204041834, guid: 3d5f4df27de1e4ad78d97fed7469064b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1646853863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1369988209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369988205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde7fb3b2adaf4ca48d8e4746250e162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapeRotateSpeed: 60
 --- !u!1001 &1646853863
 PrefabInstance:
   m_ObjectHideFlags: 0
