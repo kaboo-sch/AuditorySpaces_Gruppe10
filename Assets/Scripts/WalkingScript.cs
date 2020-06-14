@@ -21,6 +21,7 @@ public class WalkingScript : MonoBehaviour
         {
             stopStepSound();
         }
+
     }
 
     public void startStepSound()

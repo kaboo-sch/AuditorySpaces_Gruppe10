@@ -6,10 +6,15 @@ public class TapeRotator : MonoBehaviour
 {
 
     public float tapeRotateSpeed;
-
+    public bool TapeOn = false;
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.forward, tapeRotateSpeed * Time.deltaTime);
+        if (TapeOn == true)
+            transform.Rotate(Vector3.forward, tapeRotateSpeed * Time.deltaTime);
+    }
+
+    public void TapeOnPlz(){
+        TapeOn = true;
     }
 }
