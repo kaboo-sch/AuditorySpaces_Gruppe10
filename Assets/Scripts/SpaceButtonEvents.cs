@@ -9,6 +9,8 @@ public class SpaceButtonEvents : MonoBehaviour
     public GameObject Fader;
     public GameObject Monitor;
 
+    public AudioSource Waldhall;
+
     public Text LevelLabel;
 
     private bool ButtonHit = false;
@@ -23,6 +25,7 @@ public class SpaceButtonEvents : MonoBehaviour
     {
         mat = myObj.GetComponent<Renderer>().material;
         lit = myObj.GetComponent<Light>();
+        LevelLabel.text = "Reverb: " + "\n" + Mathf.Round(Waldhall.reverbZoneMix * 10000.0f) / 100.0 + "%";
     }
        
     void Update()
@@ -45,16 +48,16 @@ public class SpaceButtonEvents : MonoBehaviour
             //Fader.transform.Translate(-0.05f, 0, 0);
             curPos = Fader.transform.position;
             moveDir = new Vector3(-0.1f,0,0);
-            Monitor.GetComponent<AudioSource>().reverbZoneMix += 0.15f;
-            LevelLabel.text = "Reverb: " + "\n" + Mathf.Round(Monitor.GetComponent<AudioSource>().reverbZoneMix * 10000.0f) / 100.0 + "%";
+            Waldhall.reverbZoneMix += 0.15f;
+            LevelLabel.text = "Reverb: " + "\n" + Mathf.Round(Waldhall.reverbZoneMix * 10000.0f) / 100.0 + "%";
         }
         else if (myObj.name == "Cube")
         {
             //Fader.transform.Translate(0.05f, 0, 0);
             curPos = Fader.transform.position;
             moveDir = new Vector3(0.1f, 0, 0);
-            Monitor.GetComponent<AudioSource>().reverbZoneMix -= 0.15f;
-            LevelLabel.text = "Reverb: " + Mathf.Round(Monitor.GetComponent<AudioSource>().reverbZoneMix * 10000.0f) / 100.0 + "%";
+            Waldhall.reverbZoneMix -= 0.15f;
+            LevelLabel.text = "Reverb: " + Mathf.Round(Waldhall.reverbZoneMix * 10000.0f) / 100.0 + "%";
         }
     }
 

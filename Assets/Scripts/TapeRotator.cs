@@ -6,15 +6,37 @@ public class TapeRotator : MonoBehaviour
 {
 
     public float tapeRotateSpeed;
-    public bool TapeOn = false;
+    public GameObject myPlayer;
+    bool TriggerActive = false;
+    bool hittoturn = false;
+
+
     // Update is called once per frame
     void Update()
     {
-        if (TapeOn == true)
-            transform.Rotate(Vector3.forward, tapeRotateSpeed * Time.deltaTime);
+
+        if (TriggerActive)
+        {
+            /*
+             * Wenn über den Trigger der Boolean auf true gesetzt wurde,
+             * wird hier gecheckt, ob ob der Kreis voll ist. Falls ja, wird die 
+             * Scene geladen. Der Name der Scene muss auf dem Objekt eingetragen werden.
+             */
+
+            if (myPlayer.GetComponent<GazeFiller>().imgGaze.fillAmount >= 1)
+            {
+                hittoturn = true;
+            }
+
+            if (hittoturn)
+            {
+                transform.Rotate(Vector3.forward, tapeRotateSpeed * Time.deltaTime);
+            }
+        }
     }
 
-    public void TapeOnPlz(){
-        TapeOn = true;
+    public void setCheckActive()
+    {
+        TriggerActive = true;
     }
 }
