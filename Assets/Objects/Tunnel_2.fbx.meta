@@ -9,7 +9,47 @@ ModelImporter:
   - first:
       74: -5644114486438445420
     second: Empty|Empty|Empty|EmptyAction|Empty|EmptyAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor
+    second: {fileID: 2100000, guid: 55ced9d8944024445a8a9a7781d23e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knob
+    second: {fileID: 2100000, guid: c532ebf888cc44aeb84fb3a3a5b2ca5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp
+    second: {fileID: 2100000, guid: 856232d5f82f9410aae321f010256c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: aaa7213c8b8ab4df780443a17c049443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: df097151e72b64418904beff12519ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6406c78b4f4a641909df1b8654e67cd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schild
+    second: {fileID: 2100000, guid: 745e03c6c072e4a368234bc75370822a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "T\xFCrrahmen"
+    second: {fileID: 2100000, guid: abaa125aa76d346a1a635d270a4a26ff, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
