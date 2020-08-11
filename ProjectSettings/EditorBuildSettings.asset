@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestScene.unity
     guid: a4a16cb93ea4d4069972ed0dd77e6663
+  - enabled: 1
+    path: Assets/Scenes/AutoScene.unity
+    guid: 72b1203e3b0054686b1b220055c79436
+  - enabled: 1
+    path: Assets/Scenes/AutoInteriorScene.unity
+    guid: 2ae0bca3807624842a5b79374eb30cb0
   m_configObjects: {}
