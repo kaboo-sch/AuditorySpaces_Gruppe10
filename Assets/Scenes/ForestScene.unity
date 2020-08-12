@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPlayer: {fileID: 1697646562}
-  SceneToLoad: SpaceStudio
+  SceneToLoad: SpaceStudio_II
 --- !u!114 &975916785 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5638692719113394929, guid: e750f52b163a5434b8bb8a4817ef1c47,
@@ -992,6 +992,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerObject
       objectReference: {fileID: 0}
+    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
+        type: 3}
+      propertyPath: imgGaze
+      value: 
+      objectReference: {fileID: 975916785}
     - target: {fileID: 5931092783740545694, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1072,11 +1077,11 @@ PrefabInstance:
       propertyPath: PlayerObj
       value: 
       objectReference: {fileID: 1697646562}
-    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
+    - target: {fileID: 5931092782637171312, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
-      propertyPath: imgGaze
-      value: 
-      objectReference: {fileID: 975916785}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5931092783298668973, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
       propertyPath: maxReticleDistance

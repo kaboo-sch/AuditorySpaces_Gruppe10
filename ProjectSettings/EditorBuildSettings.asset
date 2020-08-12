@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ForestScene.unity
     guid: a4a16cb93ea4d4069972ed0dd77e6663
   - enabled: 1
+    path: Assets/Scenes/SpaceStudio_II.unity
+    guid: 87cb1fce89d3a4d1d99ce6f58c4f5943
+  - enabled: 1
     path: Assets/Scenes/AutoScene.unity
     guid: 72b1203e3b0054686b1b220055c79436
   - enabled: 1
