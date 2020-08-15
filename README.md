@@ -1,5 +1,4 @@
 # Raumschiff Tonstudio – Gruppe10
-___
 ## Idee
 ## Technische Umsetzung
 ### Generell
