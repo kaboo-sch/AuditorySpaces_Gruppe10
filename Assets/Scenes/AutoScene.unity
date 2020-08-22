@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -346,6 +346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instruction_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4920728077466115218, guid: 9346743ed39ff467badb68cd066f928e,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4920728078625299353, guid: 9346743ed39ff467badb68cd066f928e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -450,11 +455,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4920728077466115218, guid: 9346743ed39ff467badb68cd066f928e,
-        type: 3}
-      propertyPath: m_Text
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9346743ed39ff467badb68cd066f928e, type: 3}
@@ -2001,9 +2001,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f231d8a2c22834fb0a3094d59f883624, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cdfd305094f9d4266a0fe1db8ae457cb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.753
   m_Pitch: 1
   Loop: 0
   Mute: 0

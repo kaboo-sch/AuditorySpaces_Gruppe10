@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Tape_ForrestSound : MonoBehaviour
 {
@@ -28,7 +29,16 @@ public class Tape_ForrestSound : MonoBehaviour
                 ForrestAudio[0].Play();
                 ForrestAudio[1].Play();
                 TriggerActive = false;
-                Instructor.text = "Erhöhe die Lautstärke und den Hall der Waldgeräusche, um in den Wald zu gelangen.";
+
+                if (SceneManager.GetActiveScene().name == "SpaceStudio")
+                {
+                    Instructor.text = "Erhöhe die Lautstärke und den Hall der Waldgeräusche, um in den Wald zu gelangen.";
+                }
+
+                else if (SceneManager.GetActiveScene().name == "SpaceStudio_II")
+                {
+                    Instructor.text = "Erhöhe die Lautstärke und den Hall der Stadtgeräusche, um an den Schauplatz zu gelangen.";
+                }
             }
         }
     }

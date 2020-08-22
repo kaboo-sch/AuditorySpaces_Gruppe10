@@ -2161,6 +2161,19 @@ MonoBehaviour:
   TriggerSource: {fileID: 2000292175}
   InstrText: {fileID: 426771820}
   TextInput: Gehe zur Bandmaschine und aktiviere sie!
+--- !u!114 &1908669158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908669156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a8dd34325e14f898719d087c432d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerSource: {fileID: 2000292179}
 --- !u!82 &1908669161
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2353,19 +2366,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1908669164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908669156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 537b03218c251452a9253d4501e36387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TriggerSource: {fileID: 2000292179}
 --- !u!114 &1999439265 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
@@ -2514,11 +2514,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b8e00d9ba2304ad89c5abd864627504, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fdb08b8249ddf49078f0926ddf1d9706, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2610,7 +2610,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 93a2828f3524142a4be638e4abe71dee, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 94f343debaa1941249ca754c895cf2ae, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2904,6 +2904,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
+        type: 3}
+      propertyPath: imgGaze
+      value: 
+      objectReference: {fileID: 1265985393}
     - target: {fileID: 5931092783740545694, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2994,11 +2999,6 @@ PrefabInstance:
       propertyPath: near clip plane
       value: 0.01
       objectReference: {fileID: 0}
-    - target: {fileID: 5931092783740545698, guid: 55ea9445b7fc543b9ac278697ee9cda3,
-        type: 3}
-      propertyPath: imgGaze
-      value: 
-      objectReference: {fileID: 1265985393}
     - target: {fileID: 5931092782637171319, guid: 55ea9445b7fc543b9ac278697ee9cda3,
         type: 3}
       propertyPath: m_LocalPosition.y
