@@ -29,7 +29,7 @@ public class RadioPlay : MonoBehaviour
     {
         if(!AudioTrigger.isPlaying)
         {
-            LevelLabel.text = "Aktiviere das Radio.";
+            LevelLabel.text = "Schalte das Radio ein";
         }
 
         if (myPlayer.GetComponent<GazeFiller>().imgGaze.fillAmount >= 1)
