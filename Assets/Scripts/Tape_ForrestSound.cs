@@ -37,7 +37,7 @@ public class Tape_ForrestSound : MonoBehaviour
 
                 else if (SceneManager.GetActiveScene().name == "SpaceStudio_II")
                 {
-                    Instructor.text = "Erhöhe die Lautstärke und den Hall der Stadtgeräusche, um an den Schauplatz zu gelangen.";
+                    Instructor.text = "Erhöhe die Lautstärke der Stadtgeräusche, um an den Schauplatz zu gelangen.";
                 }
             }
         }

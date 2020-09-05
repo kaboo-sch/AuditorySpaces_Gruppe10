@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ef9156011a2e64944803893fdbae8fdb
+  - enabled: 1
     path: Assets/Scenes/OutsideScene.unity
     guid: a650e3de58afa413f8916670eb3254a2
   - enabled: 1
@@ -26,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AutoInteriorScene.unity
     guid: 2ae0bca3807624842a5b79374eb30cb0
+  - enabled: 1
+    path: Assets/Scenes/SpaceStudio_III.unity
+    guid: c39120bbc608f4efe9857cdfe48b3d9a
   m_configObjects: {}

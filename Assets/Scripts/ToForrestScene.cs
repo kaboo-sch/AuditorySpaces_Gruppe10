@@ -11,9 +11,20 @@ public class ToForrestScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TriggerSource.reverbZoneMix >= 1.05 && TriggerSource.volume >= 0.9)
+        if (SceneManager.GetActiveScene().name == "SpaceStudio")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (TriggerSource.reverbZoneMix >= 1.05 && TriggerSource.volume >= 0.9)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+
+        }
+        else if (SceneManager.GetActiveScene().name == "SpaceStudio_II")
+        {
+            if (TriggerSource.volume >= 0.9)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 }
