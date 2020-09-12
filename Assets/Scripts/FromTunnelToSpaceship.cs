@@ -27,8 +27,6 @@ public class FromTunnelToSpaceship : MonoBehaviour
                 SceneManager.LoadScene("SpaceStudio");
             }
         }
-
-
     }
 
     public void WheelIsHit()
