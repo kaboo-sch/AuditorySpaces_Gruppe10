@@ -5,6 +5,11 @@
 ### Idee
 * Dieses Projekt entstand im Rahmen des Aufbauseminars [_Auditory Spaces: Sound als Gestaltungsmittel in VR und AR_](https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sosem20/auditory-spaces-sound-als-gestaltungsmittel-in-vr-und-ar/) am Institut für Digital Humanities der Universität zu Köln.
 * Wir haben es uns als Ziel gesetzt, das Hörspiel [_Raumschiff Tonstudio – Bericht über das Innere einer Kapsel und deren Bewohner_](https://www.deutschlandfunkkultur.de/hoerspiel-ueber-den-brillanten-sound-raumschiff-tonstudio.3684.de.html?dram:article_id=456412) in einen virtuellen Raum zu übersetzen
+* Der virtuelle Raum soll das Auditive unterstützen um das Hörspiel zu verbildlichen, jedoch steht das Hörspiel im Fokus.
+* Einzelne Szenen sollen aus dem Hörspiel herausgenommen und visualisiert werden um ein Narrativ zu bilden, womit eine ganze Geschichte entsteht.
+* Wir wollen einen Mix aus vorgegebenen Handlungen und freier Interaktion, um den Nutzenden einen kleinen Leitfaden zu geben aber auch Möglichkeit zum Experimentieren zu lassen.
+* Das Raumschiff soll den Ankerpunkt der Anwendung darstellen, wie es auch im Hörspiel beschrieben wird.
+
 
 ### Allgemeine Informationen
 * Gruppe N°10
